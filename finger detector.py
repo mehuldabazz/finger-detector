@@ -33,12 +33,66 @@ while True:
             fingerup = detector.fingersUp(hand)
             if fingerup == [0, 1, 0, 0, 0]:
                 fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\1.png")
+            elif fingerup ==[1, 0, 0, 0, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\1.png")
+            elif fingerup ==[1, 0, 0, 0, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\1.png")
+            elif fingerup ==[0, 0, 1, 0, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\1.png")
+            elif fingerup ==[0, 0, 0, 1, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\1.png")
+            elif fingerup ==[0, 0, 0, 0, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\1.png")
             elif fingerup == [0, 1, 1, 0, 0]:
                 fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [1, 1, 0, 0, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [1, 0, 1, 0, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [1, 0, 0, 1, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [1, 0, 0, 0, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [0, 1, 1, 0, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [0, 1, 0, 1, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [0, 1, 0, 0, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [0, 0, 1, 1, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [0, 0, 1, 0, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")
+            elif fingerup == [0, 0, 0, 1, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\2.png")   
             elif fingerup == [0, 1, 1, 1, 0]:
                 fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\3.png")
+            elif fingerup == [1, 1, 1, 0, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\3.png")
+            elif fingerup == [1, 1, 0, 1, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\3.png")
+            elif fingerup == [1, 1, 0, 0, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\3.png")
+            elif fingerup == [1, 0, 1, 1, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\3.png")
+            elif fingerup == [1, 0, 0, 1, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\3.png")
+            elif fingerup == [0, 1, 0, 1, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\3.png")
+            elif fingerup == [0, 1, 1, 0, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\3.png")
+            elif fingerup == [0, 0, 1, 1, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\3.png")     
             elif fingerup == [0, 1, 1, 1, 1]:
                 fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\4.png")
+            elif fingerup == [1, 1, 1, 1, 0]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\4.png")
+            elif fingerup == [1, 0, 1, 1, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\4.png")
+            elif fingerup == [1, 1, 0, 1, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\4.png")
+            elif fingerup == [1, 1, 1, 0, 1]:
+                fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\4.png")   
             elif fingerup == [1, 1, 1, 1, 1]:
                 fing = cv2.imread(r"C:\Users\AgentM7\Documents\finger detector\5.png")
 
